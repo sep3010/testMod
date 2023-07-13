@@ -10,6 +10,6 @@ func MyAge(age int) (string, error) {
 		return "", errors.New("wrong age")
 	}
 
-	message := fmt.Sprintf("I'm, %d old!", age)
+	message := fmt.Sprintf("I'm, %d years old!", age)
 	return message, nil
 }
