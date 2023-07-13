@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func myAge(age int) (string, error) {
+func MyAge(age int) (string, error) {
 	if age < 0 {
 		return "", errors.New("wrong age")
 	}
