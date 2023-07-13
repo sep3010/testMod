@@ -1,4 +1,4 @@
-package second
+package testMode
 
 import (
 	"errors"
